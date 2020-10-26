@@ -22,7 +22,7 @@ level | 0 | Level of the bookmark, must be a positive integer. Level 0 is the ma
 You can insert an index (summary) of all bookmarks automatically, using the following function : 
 
 ```php
-$html2pdf->createIndex($titre, $sizeTitle, $sizeBookmark, $bookmarkTitle, $displayPage, $onPage, $fontName, $marginTop);
+$html2pdf->createIndex($title, $sizeTitle, $sizeBookmark, $bookmarkTitle, $displayPage, $onPage, $fontName, $marginTop);
 ```
 
 ### parameters
